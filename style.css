@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+li,
+a,
+p,
+pre {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: #fff;
+}
+
+.bg {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+/* nav configuration */
+nav {
+  margin: auto;
+  display: flex;
+  width: 65%;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 4rem;
+  margin: 1rem;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  float: right;
+}
+
+li {
+  margin: 1.5em;
+  display: inline-block;
+  text-align: center;
+}
+li a:hover {
+  color: #00ffd4;
+  transition-timing-function: ease;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+
+/* section me configuration */
+
+.content_me h1 > span {
+  color: #00ffd4;
+}
+
+.content_me {
+  padding: 5rem 7rem;
+  margin: 3rem auto;
+  width: 65%;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 3rem;
+}
+
+.me_img {
+  display: block;
+  float: right;
+  margin: auto;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: 0 0;
+  transform: scaleX(-1);
+
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(255, 255, 255, 1);
+
+  box-shadow: 0 20px 100px -70px rgba(0, 255, 212, 1);
+  z-index: 5;
+}
+
+.content_me h1 {
+  margin-top: 2rem;
+}
+
+.content_me p {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  width: 55%;
+}
+
+/* section check portofolio */
+.check_portofolio {
+  margin: auto;
+  text-align: center;
+}
+
+svg {
+  width: 50px;
+  margin-top: 1.2rem;
+  color: #00ffd4;
+  box-shadow: 0 20px 100px -70px rgba(0, 255, 212, 1);
+}
+
+#arrow {
+  width: 45px;
+  margin-top: 1.2rem;
+  fill: #00ffd4;
+  box-shadow: 0 20px 100px -70px rgba(0, 255, 212, 1);
+}
+
+/* general configuration*/
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 5rem;
+  color: #fff;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #fff;
+}
